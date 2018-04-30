@@ -4,9 +4,9 @@ public class A {
   String message = "foo";
 
   public String foo() {
+// FIXME
     if (bar() < doh()) {
       unused1();
-      lastBarBeforeTheEndOfTime();
     }
     return message;
   }
